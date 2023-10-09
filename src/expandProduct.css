@@ -1,0 +1,155 @@
+.expandproduct-container {
+  margin-top: 5rem;
+}
+
+.product-images {
+  display: flex;
+  justify-content: center;
+  /* margin: 10px; */
+}
+
+.product-images img {
+  width: 27%;
+  margin: 10px;
+}
+
+.product-figures {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+@media only screen and (width < 500px) {
+  .product-figures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .product-figures div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .product-figures hr {
+    color: #f1f1f1;
+    height: 1px !important;
+  }
+  .product-info {
+    background-color: #f1f1f1;
+    padding: 0.5rem !important;
+
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+  .send-enquiry-btn-product {
+    /* background-color: white; */
+    width:40% !important;
+    height: 7vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+    font-size: 20px;
+
+  }
+  
+}
+
+.send-enquiry-btn-product:hover{
+  background-color: #210d41;
+}
+
+.product-figures h4 {
+  margin: 1rem;
+  color: gray;
+}
+
+.product-figures hr {
+  color: #f1f1f1;
+  height: 4rem;
+}
+
+.section {
+  /* margin:20px; */
+  width: 20%;
+  text-align: center;
+  /* padding-top: 30px; */
+}
+.product-info {
+  background-color: #f1f1f1;
+  padding: 5rem;
+}
+
+.product-about-us {
+  border: 2px solid lightgray;
+  border-radius: 3px;
+  /* padding-top: 3rem; */
+  width: 70%;
+  padding: 20px;
+  /* display: flex; */
+  margin: auto;
+
+  background-color: white;
+}
+
+.product-about-us p {
+  margin-top: 10px;
+  /* width: 70%; */
+  line-height: 1.8rem;
+  color: gray;
+}
+
+.product-about-us hr {
+  margin-top: 10px;
+  color: lightgray;
+
+  /* width: 70%; */
+}
+.location-info hr {
+  margin-top: 10px;
+  color: lightgray;
+}
+
+.location-info {
+  border: 2px solid lightgray;
+  border-radius: 3px;
+  /* padding-top: 3rem; */
+  width: 70%;
+  padding: 20px;
+  margin-top: 2rem !important;
+  /* display: flex; */
+  margin: auto;
+
+  background-color: white;
+}
+
+.location-info-list {
+  margin-top: 1rem;
+}
+
+.location-info-list li {
+  margin: 1rem;
+  list-style-type: disc;
+  font-weight: bold;
+  color: gray;
+  font-size: 20px;
+}
+
+.send-enquiry-btn-product {
+  background-color: #bc1823;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 15%;
+  text-align:center;
+  height: 7vh !important;
+
+  margin-top: 2rem !important;
+  margin: auto;
+  color : white;
+}
+

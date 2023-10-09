@@ -1,0 +1,87 @@
+.otp-login{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.otp-login-card{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 22rem;
+    /* height: 23rem; */
+    padding: 1rem;
+    box-shadow: 10px 15px 15px 4px rgba(0,0,0,0.1);
+}
+
+.gv-logo{
+    font-weight: bold;
+}
+
+.global{
+    color: #bc1823;
+}
+
+.vistar{
+    color: #210d41;
+}
+
+.otp-login-title{
+    color: #707070;
+}
+
+.otp-login-p{
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    color: #4e4e4e;
+}
+
+.star{
+    color: red;
+    font-weight: bold;
+}
+
+.country-region{
+    border-radius: 5px;
+    border: 1px solid rgb(190, 190, 190);
+    padding: 0.6rem;
+    margin-right: 1rem;
+}
+
+.otp-login-input{
+    border-radius: 5px;
+    border: 1px solid rgb(190, 190, 190);
+    padding: 0.6rem;
+    outline: none;
+    width: 15.7rem;
+}
+
+.otp-login-btn{
+    margin-top: 2rem;
+    outline: none;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.6rem;
+    margin-bottom: 1.2rem;
+    background-color: #210d41;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    width: 20rem;
+}
+
+.otp-login-btn:hover{
+    background-color: #bc1823;
+    color: white;
+}
+
+.fa-solid{
+    margin-left: 0.5rem;
+    color: white;
+}
+
+.otp-signup-redirection{
+    font-weight: bold;
+    cursor: pointer;
+}

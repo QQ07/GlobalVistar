@@ -1,0 +1,62 @@
+.property-list-container {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  width: fit-content !important;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin:auto;
+  
+}
+
+/* .feature-card{
+    height: 3rem;
+
+} */
+.property-list {
+  margin-top: 5rem;
+  gap: 2rem;
+  padding: 0 !important;
+  display: flex;
+}
+
+
+
+@media only screen and (width<=767px) {
+  .property-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 4rem;
+  }
+  .feature-card {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.explore-more-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  /* background-color: #210d41; */
+}
+/* 
+
+
+.explore-more-btn:hover {
+  background-color: #bc1823;
+} */
+
+.explore-more-btn Button{
+  
+  background-color: #210d41;
+}
+
+.explore-more-btn Button:hover{
+  
+  background-color: #bc1823;
+}

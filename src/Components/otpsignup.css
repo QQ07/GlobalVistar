@@ -1,0 +1,293 @@
+.otp-verification {
+  margin: 0 3rem 0 3rem;
+  padding: 0;
+  display: flex;
+  width: 80%;
+  font-family: "Roboto", sans-serif;
+}
+
+.otp-ver-left {
+  flex: 2;
+}
+
+.otp-verification-card {
+  flex: 1;
+  margin: 0;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 20rem;
+  margin-top: 3rem;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 10px 15px 15px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fa-solid {
+  color: #6d6d6d;
+}
+
+.otp-input-field {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding-left: 7px;
+}
+
+.otp-input-field-2 {
+  border: none;
+  padding: 0.7rem;
+  font-size: 1rem;
+  outline: none;
+  width: 18.5rem;
+}
+
+.otp-register {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.otp-register-dist {
+  margin-right: 1rem;
+}
+
+.btnn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background-color: blue;
+
+
+}
+.btnn:hover{
+  transition: 0.4s;
+  color: black;
+  background-color: lightblue;
+}
+/* .otp-verify-btn {
+  outline: none;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.7rem;
+  background-color: #210d41;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: white;
+} */
+
+/* .otp-verify-btn:hover {
+  background-color: #bc1823;
+  color: white;
+} */
+
+.dropdown {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.dropdown-btn {
+  display: inline;
+  margin-top: 0.4rem;
+  cursor: pointer;
+}
+.dropdown-menu {
+  padding: 1rem;
+}
+
+.dropdown-menu li:hover {
+  background-color: #2872c5;
+  color: white;
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+
+.otp-left-title {
+  font-size: 3rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  width: 70%;
+  font-weight: bold;
+}
+
+.otp-left-title-2 {
+  margin-left: 5rem;
+  width: 70%;
+}
+
+.otp-global {
+  color: #bc1823;
+}
+
+.otp-vistar {
+  color: #210d41;
+}
+
+.verification-status {
+  color: #6d6d6d;
+}
+
+.sign-up-img {
+  width: 20rem;
+  margin-left: 5rem;
+  margin-top: 1.5rem;
+}
+
+.otp-gv-logo {
+  display: none;
+}
+
+.regAs {
+  font-size: 1.2rem;
+  display: inline-flex;
+  margin-right: 1rem;
+}
+.otpinfo {
+  font-size: 1.2rem;
+  display: inline-flex;
+  margin-left: 1rem;
+}
+.sendOtpbtn {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+/* .nameInput{
+    display: flex;
+    align-items: end;
+} */
+.VerifyFlex {
+  display: flex;
+  align-items: center;
+}
+.lastSubmit {
+  display: flex;
+  justify-content: center;
+}
+.red {
+  color: red;
+}
+@media (max-width: 360px) {
+  .otp-verification {
+    margin: 0;
+    display: block;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .otp-ver-left {
+    display: none;
+  }
+
+  .otp-verification-card {
+    flex: 1;
+    margin: 0;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 17rem;
+    height: 115vh;
+  }
+
+  .otp-input-field {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+
+  .otp-input-field-2 {
+    border: none;
+    padding: 0.7rem;
+    font-size: 1rem;
+    outline: none;
+    width: 12rem;
+  }
+
+  .otp-gv-logo {
+    display: block;
+  }
+}
+
+
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dd-button {
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 10px 30px 10px 20px;
+  background-color: #ffffff;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-button:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+
+.dd-button:hover {
+  background-color: #eeeeee;
+}
+
+
+.dd-input {
+  display: none;
+}
+
+.dd-menu {
+  position: absolute;
+  top: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+}
+
+.dd-input + .dd-menu {
+  display: none;
+} 
+
+.dd-input:checked + .dd-menu {
+  display: block;
+} 
+
+.dd-menu li {
+  padding: 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-menu li:hover {
+  background-color: #f6f6f6;
+}
+
+.dd-menu li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+}
+
+.dd-menu li.divider{
+  padding: 0;
+  border-bottom: 1px solid #cccccc;
+}

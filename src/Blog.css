@@ -1,0 +1,28 @@
+
+.blog-list{
+    width: 90rem;
+    display:flex;
+    justify-content: space-around;
+    margin-left:-8rem;
+}
+
+
+
+@media only screen and (width <= 767px){
+
+
+    .blog-list{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+
+        width:fit-content !important;
+    }
+
+
+
+
+}
+

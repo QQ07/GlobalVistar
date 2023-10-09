@@ -1,0 +1,277 @@
+@media screen and (width< 480px) {
+  /* .about-us-page{
+        width:fit-content;
+    } */
+  .section-one {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    align-items: center;
+  }
+  .team-members {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
+  .why-choose-us {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: -3rem;
+  }
+  .why-choose-us-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px !important;
+  }
+
+  .title-why-choose-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vision-mission-section {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    /* margin-left: 20px; */
+    background-color: #210d41;
+    gap: 3rem;
+    width: 100%;
+    /* text-align: center; */
+  }
+  .mission hr {
+    width: 60%;
+    height: 2px;
+    margin-top: 0.5rem;
+  }
+  .vision hr {
+    width: 60%;
+    height: 2px;
+    margin-top: 0.5rem;
+  }
+  .mission-text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (width> 480px) {
+  /* .about-us-page{
+        width:fit-content;
+    } */
+
+  .team-members {
+    display: flex;
+    flex-direction: row;
+  }
+  .member-card {
+    width: 20%;
+  }
+  .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem;
+    /* flex-direction: column; */
+  }
+  .section-one {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+  }
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem;
+  /* flex-direction: column; */
+}
+
+.about-us-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.left-section-one {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.slogan {
+  font-size: 10rem !important;
+  line-height: 50px;
+}
+
+
+/* .member-card{
+    width: 20%;
+
+    
+} */
+@media only screen and (width < 400px) {
+  .badhaye-apke {
+    display: flex;
+    flex-direction: column;
+  } 
+}
+
+@media only screen and (width > 700px) {
+  .badhaye-apke {
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+  } 
+  
+}
+
+
+
+.section-one {
+  display: flex;
+  justify-content: center;
+  margin-top: -3rem;
+  /* margin:5rem; */
+}
+.left-section-text {
+  font-size: 20px;
+  color: #2d3840 !important;
+}
+
+.about-us-img-1 {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .img-holder{
+  width:10rem;
+  height: 10rem;
+  border-radius:50% !important;
+} */
+
+.member-pic {
+  width: 13rem;
+  height: 13rem;
+
+  display: block;
+
+  border-radius: 50%;
+
+  /* z-index: 1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.our-team-head {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.social-handles {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  color: black;
+}
+.social-handles:hover {
+  color: #0077b5;
+}
+.dividor {
+  width: 30%;
+  margin: auto;
+  color: darkgray;
+  height: 0.2px;
+}
+
+/* Why Choose Us? */
+
+.why-choose-us-list {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  padding: 6rem;
+  font-size: 2rem;
+}
+.reason-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.title-why-choose-us {
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #210d41;
+  font-size: 2.5rem;
+}
+
+.title-why-choose-us span {
+  color: #bc1823;
+}
+
+.reason-card p {
+  color: #210d41;
+  font-weight: 600;
+}
+
+.icon-reason-card {
+  color: #bc1823;
+  font-size: 3rem !important;
+}
+
+.member-name {
+  margin: auto;
+  font-weight: 700;
+}
+
+.member-bio {
+  text-align: center;
+}
+.member-card {
+  border-top: 8px solid #210d41 !important;
+}
+
+.vision-mission-section {
+  display: flex;
+  flex-direction: row;
+  padding: 10%;
+  background-color: #210d41 !important ;
+  color: white;
+  /* height:30rem; */
+  gap: 3rem;
+}
+.vision-mission-header {
+  display: flex;
+}
+
+.vision-mission-header span {
+  margin-left: 0.7rem;
+  color: #bc1823;
+}
+
+.mission-text {
+  font-size: 20px;
+  color: silver;
+}
+.vision-mission-section hr {
+  width: 60%;
+  color: white;
+}
+
+.vision-mission-text {
+  margin-left: 20% !important;
+}
+.our-team-section {
+  margin-top: 4rem;
+}

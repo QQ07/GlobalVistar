@@ -1,0 +1,112 @@
+.list-your-products-section {
+  display: flex;
+  flex-direction: row;
+  /* position: fixed; */
+
+  /* position: absolute; */
+  justify-content: center;
+  /* background-color: #210d41; */
+
+  left: 0;
+  gap: 2rem;
+  /* width: fit-content; */
+
+  margin-top: 6rem;
+  /* position: fixed; */
+  /* left: 40%; */
+  /* width: 300%; */
+  height: fit-content;
+  /* background-color: #e9edf8; */
+  color: white;
+  /* z-index: 1;   */
+  border-radius: 16px;
+  /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) !important ; */
+  border-color: 2px solid black;
+}
+
+.list-your-products-box {
+  /* width: 800px !important; */
+  /* margin-left: 300px !important; */
+  /* margin-right: 0px !important; */
+  /* background-color: #210d41; */
+}
+
+.list-your-products-head {
+  color: white;
+  text-align: center;
+  display: block;
+  /* margin: !important; */
+  padding: 3rem;
+  height: 15vh;
+  /* margin:3rem;  */
+  background-color: #bc1823;
+}
+.submit-btn-list-products {
+  margin-right: 100px;
+}
+
+.file-input {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 25px 12px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  border-radius: 4px;
+  width: 100%;
+  /* margin-top: 1rem; */
+}
+.list-your-products-label {
+  color: black;
+  /* position: absolute; */
+  /* padding-bottom:-10rem !important; */
+  padding-top:20px;
+  /* padding-bottom: -20px; */
+  z-index:0;
+  
+  font-size: 12px;
+}
+.file-selection{
+  margin-top:10px;
+}
+
+
+@media only screen and (width<=467px) {
+  .list-your-products-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    /* width:100%;
+    margin:50px; */
+    /* gap:2rem; */
+    /* margin-left:40px; */
+    /* margin-right: 40px !important; */
+
+  }
+
+  .list-your-products-label {
+  color: black;
+  /* position: absolute; */
+  /* padding-bottom:-10rem !important; */
+  padding-top:30px; 
+  /* padding-bottom: -20px; */
+  width:90%;
+  z-index:0;
+  
+  font-size: 12px;
+}
+  .list-your-products-box{
+    /* margin-left:20px !important; */
+  }
+  .list-your-products-label {
+  padding-left:10px;
+  font-size: 15px;
+}
+.file-selection{
+  margin-top:20px;
+}
+.file-input{
+  width:90%;
+}
+}

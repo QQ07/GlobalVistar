@@ -1,0 +1,33 @@
+.book-a-demo-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background-color: #210d41;
+  color: white;
+}
+.call-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding:20px;
+  background-color: white;
+  color: black;
+}
+
+.call-btn:hover {
+  background-color: #bc1823;
+}
+
+@media only screen and (width < 500px) {
+  .call-btn {
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding:20px;
+  }
+  .book-a-demo-section {
+    text-align:center;
+  }
+}

@@ -1,0 +1,153 @@
+.btn-search {
+    font-size:40px !important;
+    margin-left:5px;
+    
+}
+
+.header-bottom-actions-btn:hover{
+  box-shadow: 0 0 50px #ccc;
+  color:#BC1823;
+}
+
+
+
+.btn-profile{
+    font-size:40px !important;
+    margin-left: 5px;
+}
+
+.register-button{
+  background-color: #210d41;
+}
+
+
+
+.list-menu{
+  
+  position: relative;
+  top:10rem;
+  border:1px solid black;
+  z-index:1 !important;
+  
+  
+  width:200px;
+  background-color: white;
+  text-align: left;
+  
+  border-radius: 10px;
+  
+  
+  
+}
+.list-menu li{
+  position: relative;
+  padding-bottom:10px;
+  text-align: left;
+  /* padding-left:10px; */
+  padding:10px 0px 10px 10px;
+
+}
+
+.list-menu li:hover{
+  background-color: #210d41;
+  color:white;
+  border-radius: 10px;
+  
+}
+
+.btn-profile-main-div{
+  max-width: 10px;
+  background-color:white;
+  color:black;
+}
+
+@media screen and (max-width: 1000px) {
+  .btn-profile{
+    margin-left: 0px;
+    
+  }
+  .logo-website{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.profile-container{
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.logo-website{
+  display:flex;
+  
+}
+.logo-part-one{
+  color:#BC1823;
+
+}
+.logo-part-two{
+  color:#0B2C3C;
+}
+
+.header-top-social-link:hover{
+  color:#BC1823 !important;
+} 
+
+.dropdown-menu-profile{
+  background-color: white;
+  border:1px solid black;
+  padding:10px;
+  color:black;
+}
+
+.header-bottom-actions Button:hover{
+  background-color: #BC1823;
+}
+
+.dropdown-item{
+  padding:10px;
+  color:black;
+  text-decoration: none;
+}
+.dropdown-item:hover{
+  background-color: gray;
+}
+
+@media only screen and (width<=767px) {
+  
+  .header-bottom-actions{
+    /* background-color: red; */
+    display: grid !important;
+    grid-template-columns: 50% 50% !important;
+    align-items: center;
+    /* width:50vh; */
+    overflow-x: hidden;
+    place-items: center;
+    
+  }
+  .header-bottom-actions-btn{
+    margin:0;
+    padding:0;
+    
+  }
+  body, html{
+    overflow-x:hidden !important;
+
+  }
+  .list-menu{
+    position: relative;
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    left:1rem;
+    bottom:5rem;
+
+
+  }
+
+
+  
+
+
+}

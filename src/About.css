@@ -1,0 +1,10 @@
+@media only screen and (width < 480px){
+    .about-banner{
+        padding-top:22rem;
+    }
+}
+
+.about-main{
+    margin-top:3rem;
+    margin-bottom:3rem;
+}
